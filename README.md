@@ -1,4 +1,4 @@
-# Zybo Z7-20 software walkthrough
+# Zybo Z7-20 software download instructions
 The set of instructions below provides a complete walkthrough of the software that is required to be downloaded before being able to automate your very own vertical farming rack using Vitis IDE and Vivado.
 
 This notebook will specifically be using Xilinx Vitis IDE 2019.2 and Vivado 2019.2 as an example, please ensure that the version of the Vitis IDE and Vivado is matching otherwise there may be many software version errors in the near future. (Other versions of Vitis IDE and Vivado has not been tested) 
@@ -6,6 +6,8 @@ This notebook will specifically be using Xilinx Vitis IDE 2019.2 and Vivado 2019
 (Try at your own risk) If you already have other versions of Vivado/Vitis IDE downloaded on your computer and do not wish to uninstall those, please take note to install the same version for both Vitis IDE and Vivado. However, if you wish to follow step by step of this walkthrough, uninstalling those version through either the control panel or the uninstall.exe for Xilinx first would be advised.
 
 However, if you wish to follow step by step of this walkthrough, uninstalling those version through either the control panel or the uninstall.exe for Xilinx first would be advised.
+
+Note that the required hard disk space is 100 GB, although the actual disk space taken for Vitis IDE and Vivado is only 30-40 GB.
 
 ![zybo-1](https://user-images.githubusercontent.com/92703672/152474145-e952bbc7-79f2-438c-bbbd-bf88e2810784.png)
 
@@ -38,7 +40,7 @@ However, if you wish to follow step by step of this walkthrough, uninstalling th
 
 <b>Step 8.</b> Proceed with the Vitis installation (This will take some time)
 
-<b>Step 9.</b> Once done with the Vitis installation, repeat steps 1 - 4 and check Vivado this time, then click next.
+<b>Step 9.</b> Once done with the Vitis installation, repeat steps 2 - 4 and check Vivado this time, then click next.
 
 ![Screenshot 2022-02-04 143109](https://user-images.githubusercontent.com/92703672/152483098-9ae61468-cd1f-4ac8-9920-d3ae9427055d.png)
 
@@ -54,4 +56,18 @@ However, if you wish to follow step by step of this walkthrough, uninstalling th
 
 <b>Step 13.</b> Proceed with the Vivado installation (This will take some time)
 
-<b>Step 14.</b> Proceed with the Vivado installation (This will take some time)
+<b>Step 14.</b> After downloading Vivado, proceed to download Vivado boards master which contains the board files for the Zybo Z7-20 here and extract it: https://github.com/Digilent/vivado-boards/archive/master.zip
+
+<b>Step 15.</b> Navigate to the location of the extracted board files directory e.g. C:\Users\User\Downloads\vivado-boards-master\vivado-boards-master\new\board_files 
+
+![Screenshot 2022-02-04 145437](https://user-images.githubusercontent.com/92703672/152485535-93a7b29c-57c3-4c95-9aad-576ed26d8e4b.png)
+
+<b>Step 16.</b> Copy these 3 files
+
+![image](https://user-images.githubusercontent.com/92703672/152485934-1f08077b-5eda-4885-95a2-c29564797c00.png)
+
+<b>Step 17.</b> Locate the directory where Vitis and Vivado was downloaded into e.g. C:\Xilinx\Vivado\2019.2\data\boards\board_files (Mentioned in step 7 and 12) and paste the 3 files copied from step 16 into here. Your board files folder should contain the 3 files that were copied from step 16.
+
+![Screenshot 2022-02-04 150522](https://user-images.githubusercontent.com/92703672/152486728-fe129f4b-aa69-4276-87a7-dfe5400689bd.png)
+
+<b>Step 18.</b> Download the Vivado library master which contains the IP for the sensors and processors we will be using and extract it:        https://github.com/Digilent/vivado-library/archive/master.zip (Remember the location of this folder as we will be using it in Vivado)
