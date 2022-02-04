@@ -1,9 +1,9 @@
 # Zybo Z7-20 software download instructions
 The set of instructions below provides a complete walkthrough of the software that is required to be downloaded before being able to automate your very own vertical farming rack using Vitis IDE and Vivado.
 
-This notebook will specifically be using Xilinx Vitis IDE 2019.2 and Vivado 2019.2 as an example, please ensure that the version of the Vitis IDE and Vivado is matching otherwise there may be many software version errors in the near future. (Other versions of Vitis IDE and Vivado has not been tested) 
+This notebook will specifically be using Xilinx Vitis IDE 2019.2 and Vivado 2019.2 as an example, please make sure that the version of the Vitis IDE and Vivado is matching otherwise there may be many software version errors in the near future. (Other versions of Vitis IDE and Vivado has not been tested) 
 
-(Try at your own risk) If you already have other versions of Vivado/Vitis IDE downloaded on your computer and do not wish to uninstall those, please take note to install the same version for both Vitis IDE and Vivado. However, if you wish to follow step by step of this walkthrough, uninstalling those version through either the control panel or the uninstall.exe for Xilinx first would be advised.
+(Try at your own risk) If you already have other versions of Vivado/Vitis IDE downloaded on your computer and do not wish to uninstall those, please take note to install the same version for both Vitis IDE and Vivado.
 
 However, if you wish to follow step by step of this walkthrough, uninstalling those version through either the control panel or the uninstall.exe for Xilinx first would be advised.
 
@@ -22,7 +22,7 @@ Note that the required hard disk space is 100 GB, although the actual disk space
 
 ![Screenshot 2022-02-04 140409](https://user-images.githubusercontent.com/92703672/152480649-0b276c4c-669e-4cd2-9d64-6ee474175e18.png)
 
-<b>Step 4.</b> Check agree and click next.
+<b>Step 4.</b> Check I agree for everything and click next.
 
 ![Screenshot 2022-02-04 141024](https://user-images.githubusercontent.com/92703672/152481302-65cc8277-d695-4d6f-ad26-5dced022cea7.png)
 
@@ -30,11 +30,13 @@ Note that the required hard disk space is 100 GB, although the actual disk space
 
 ![Screenshot 2022-02-04 141848](https://user-images.githubusercontent.com/92703672/152481873-3ae9a89b-8878-4e3a-9a8b-60a7c07ad32d.png)
 
-<b>Step 6.</b> Make sure to have all this checked in the image below and click next
+<b>Step 6.</b> Make sure to have all this checked below and click next
 
 ![Screenshot 2022-02-04 142036](https://user-images.githubusercontent.com/92703672/152482019-3b0b2514-890b-4ff1-9a8a-84d33c6da089.png)
 
-<b>Step 7.</b> Choose anywhere for your destination directory or just leave it default. Click Next and Yes if prompted. Take note of the directory as we will be adding files manually into the folder later on. (You may be required to clear some disk space before downloading, else an error like this will appear)
+<b>Step 7.</b> Choose anywhere for your destination directory or just leave it default. Click Next and Yes if prompted. Take note of the directory as we will be adding files manually into the folder later on. 
+
+(You may be required to clear some disk space before downloading, else an error like this will appear)
 
 ![Screenshot 2022-02-04 142603](https://user-images.githubusercontent.com/92703672/152482696-ec67d068-d9ff-41af-92d4-39ec72b0b165.png)
 
@@ -48,7 +50,7 @@ Note that the required hard disk space is 100 GB, although the actual disk space
 
 ![Screenshot 2022-02-04 143325](https://user-images.githubusercontent.com/92703672/152483271-27ea90c3-dde5-4223-88e6-4370677b1bb5.png)
 
-<b>Step 11.</b> Make sure to have all this checked in the image below and click next
+<b>Step 11.</b> Make sure to have all this checked below and click next
 
 ![Screenshot 2022-02-04 143610](https://user-images.githubusercontent.com/92703672/152483588-159f9e3a-73f4-4e40-92a9-e6d5b05907b7.png)
 
@@ -56,7 +58,7 @@ Note that the required hard disk space is 100 GB, although the actual disk space
 
 <b>Step 13.</b> Proceed with the Vivado installation (This will take some time)
 
-<b>Step 14.</b> After downloading Vivado, proceed to download Vivado boards master which contains the board files for the Zybo Z7-20 here and extract it: https://github.com/Digilent/vivado-boards/archive/master.zip
+<b>Step 14.</b> After downloading Vivado, download Vivado boards master which contains the board files for the Zybo Z7-20 and extract it:       https://github.com/Digilent/vivado-boards/archive/master.zip
 
 <b>Step 15.</b> Navigate to the location of the extracted board files directory e.g. C:\Users\User\Downloads\vivado-boards-master\vivado-boards-master\new\board_files 
 
@@ -71,3 +73,7 @@ Note that the required hard disk space is 100 GB, although the actual disk space
 ![Screenshot 2022-02-04 150522](https://user-images.githubusercontent.com/92703672/152486728-fe129f4b-aa69-4276-87a7-dfe5400689bd.png)
 
 <b>Step 18.</b> Download the Vivado library master which contains the IP for the Pmod sensors and ZYNQ processor that we will be using and extract it:        https://github.com/Digilent/vivado-library/archive/master.zip (Remember the location of this folder as we will be using it in Vivado)
+
+<b>Step 19.</b> Finished!!! :)
+
+![Screenshot 2022-02-04 123401](https://user-images.githubusercontent.com/92703672/152496084-fa89e1fa-c3e7-428c-97dc-c77c50f59f6f.png)
