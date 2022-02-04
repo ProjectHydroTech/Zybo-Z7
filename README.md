@@ -70,4 +70,4 @@ Note that the required hard disk space is 100 GB, although the actual disk space
 
 ![Screenshot 2022-02-04 150522](https://user-images.githubusercontent.com/92703672/152486728-fe129f4b-aa69-4276-87a7-dfe5400689bd.png)
 
-<b>Step 18.</b> Download the Vivado library master which contains the IP for the sensors and processors we will be using and extract it:        https://github.com/Digilent/vivado-library/archive/master.zip (Remember the location of this folder as we will be using it in Vivado)
+<b>Step 18.</b> Download the Vivado library master which contains the IP for the Pmod sensors and ZYNQ processor that we will be using and extract it:        https://github.com/Digilent/vivado-library/archive/master.zip (Remember the location of this folder as we will be using it in Vivado)
