@@ -64,7 +64,7 @@ Note that the required hard disk space is 100 GB, although the actual disk space
 
 ![Screenshot 2022-02-04 145437](https://user-images.githubusercontent.com/92703672/152485535-93a7b29c-57c3-4c95-9aad-576ed26d8e4b.png)
 
-<b>Step 16.</b> Copy these 3 files
+<b>Step 16.</b> Copy these 3 files (Zybo, Zybo-z7-10, Zybo-z7-20)
 
 ![image](https://user-images.githubusercontent.com/92703672/152485934-1f08077b-5eda-4885-95a2-c29564797c00.png)
 
