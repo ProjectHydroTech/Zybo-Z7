@@ -40,7 +40,7 @@ Note that the required hard disk space is 100 GB, although the actual disk space
 
 ![Screenshot 2022-02-04 142603](https://user-images.githubusercontent.com/92703672/152482696-ec67d068-d9ff-41af-92d4-39ec72b0b165.png)
 
-<b>Step 8.</b> Proceed with the Vitis installation (This will take some time)
+<b>Step 8.</b> Proceed with the Vitis installation. (This will take some time)
 
 <b>Step 9.</b> Once done with the Vitis installation, repeat steps 2 - 4 and check Vivado this time, then click next.
 
@@ -50,17 +50,17 @@ Note that the required hard disk space is 100 GB, although the actual disk space
 
 ![Screenshot 2022-02-04 143325](https://user-images.githubusercontent.com/92703672/152483271-27ea90c3-dde5-4223-88e6-4370677b1bb5.png)
 
-<b>Step 11.</b> Make sure to have all this checked below and click next
+<b>Step 11.</b> Make sure to have all this checked below and click next.
 
 ![Screenshot 2022-02-04 143610](https://user-images.githubusercontent.com/92703672/152483588-159f9e3a-73f4-4e40-92a9-e6d5b05907b7.png)
 
-<b>Step 12.</b> Choose the same directory as before or you can just leave it as default again. Click Next and Yes if prompted. (Also required to have enough disk space or same error as step 7 before will occur)
+<b>Step 12.</b> Choose the same directory as before or you could just leave it as default if you have done so before. Click Next and Yes if prompted. (Also required to have enough disk space or same error as step 7 before will occur)
 
-<b>Step 13.</b> Proceed with the Vivado installation (This will take some time)
+<b>Step 13.</b> Proceed with the Vivado installation. (This will take some time)
 
-<b>Step 14.</b> After downloading Vivado, download Vivado boards master which contains the board files for the Zybo Z7-20 and extract it:       https://github.com/Digilent/vivado-boards/archive/master.zip
+<b>Step 14.</b> After downloading both Vitis IDE and Vivado, download Vivado boards master which contains the board files for the Zybo Z7-20 and extract it to a folder of your choice:https://github.com/Digilent/vivado-boards/archive/master.zip
 
-<b>Step 15.</b> Navigate to the location of the extracted board files directory e.g. C:\Users\User\Downloads\vivado-boards-master\vivado-boards-master\new\board_files 
+<b>Step 15.</b> Move to the location of the extracted file and Navigate to the board files directory, for me it would be under downloads as I extracted it to the same folder e.g. C:\Users\User\Downloads\vivado-boards-master\vivado-boards-master\new\board_files 
 
 ![Screenshot 2022-02-04 145437](https://user-images.githubusercontent.com/92703672/152485535-93a7b29c-57c3-4c95-9aad-576ed26d8e4b.png)
 
