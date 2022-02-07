@@ -12,7 +12,7 @@ Note that the required hard disk space is 100 GB, although the actual disk space
 ![zybo-1](https://user-images.githubusercontent.com/92703672/152474145-e952bbc7-79f2-438c-bbbd-bf88e2810784.png)
 
 ## Steps
-<b>Step 1.</b> Fill in Xilinx account details and Download the Xilinx Unified 2019.2 installer through this link and run the setup once it is done downloading:   https://www.xilinx.com/member/forms/download/xef.html?filename=Xilinx_Unified_2019.2_1106_2127_Win64.exe
+<b>Step 1.</b> Click this link and fill in your Xilinx account details to download the Xilinx Unified 2019.2 installer and run the setup once it is done downloading:   https://www.xilinx.com/member/forms/download/xef.html?filename=Xilinx_Unified_2019.2_1106_2127_Win64.exe
 
 <b>Step 2.</b> Installer will prompt you to get the latest version of of the Xilinx Design Tools ignore this, click continue and next.
 
