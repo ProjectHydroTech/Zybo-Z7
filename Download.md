@@ -26,7 +26,7 @@ Note that the required hard disk space is 100 GB, although the actual disk space
 
 ![Screenshot 2022-02-04 141024](https://user-images.githubusercontent.com/92703672/152481302-65cc8277-d695-4d6f-ad26-5dced022cea7.png)
 
-<b>Step 5.</b> Check Vitis and click next.
+<b>Step 5.</b> Check Vitis and click next. (We will be installing Vitis IDE first, then followed by Vivado next in step 9)
 
 ![Screenshot 2022-02-04 141848](https://user-images.githubusercontent.com/92703672/152481873-3ae9a89b-8878-4e3a-9a8b-60a7c07ad32d.png)
 
