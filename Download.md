@@ -22,7 +22,7 @@ Note that the required hard disk space is 100 GB, although the actual disk space
 
 ![Screenshot 2022-02-04 140409](https://user-images.githubusercontent.com/92703672/152480649-0b276c4c-669e-4cd2-9d64-6ee474175e18.png)
 
-<b>Step 4.</b> Check I agree for everything and click next.
+<b>Step 4.</b> Accept the lisence agreements and click next.
 
 ![Screenshot 2022-02-04 141024](https://user-images.githubusercontent.com/92703672/152481302-65cc8277-d695-4d6f-ad26-5dced022cea7.png)
 
