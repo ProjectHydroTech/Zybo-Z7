@@ -60,7 +60,7 @@ Note that the required hard disk space is 100 GB, although the actual disk space
 
 <b>Step 14.</b> After downloading both Vitis IDE and Vivado, download Vivado boards master which contains the board files for the Zybo Z7-20 and extract it to a folder of your choice:https://github.com/Digilent/vivado-boards/archive/master.zip
 
-<b>Step 15.</b> Move to the location of the extracted file and Navigate to the board files directory, for me it would be under downloads as I extracted it to the same folder e.g. C:\Users\User\Downloads\vivado-boards-master\vivado-boards-master\new\board_files 
+<b>Step 15.</b> Move to the location of the extracted file and Navigate to the board files directory, for this example it would be under downloads as I extracted it to the same folder e.g. C:\Users\User\Downloads\vivado-boards-master\vivado-boards-master\new\board_files 
 
 ![Screenshot 2022-02-04 145437](https://user-images.githubusercontent.com/92703672/152485535-93a7b29c-57c3-4c95-9aad-576ed26d8e4b.png)
 
@@ -68,12 +68,12 @@ Note that the required hard disk space is 100 GB, although the actual disk space
 
 ![image](https://user-images.githubusercontent.com/92703672/152485934-1f08077b-5eda-4885-95a2-c29564797c00.png)
 
-<b>Step 17.</b> Navigate to the board_files directory under Xilinx\Vivado\2019.2\data\boards\board_files folder where Vitis and Vivado was downloaded into in step 7 and 12 e.g. C:\Xilinx\Vivado\2019.2\data\boards\board_files and paste the 3 files copied into here. Your board files folder should contain the 3 files that were copied from step 16.
+<b>Step 17.</b> Navigate to the board_files directory found under Xilinx\Vivado\2019.2\data\boards\board_files where Vitis and Vivado was downloaded into mentioned in step 7 and 12 e.g. C:\Xilinx\Vivado\2019.2\data\boards\board_files and paste the 3 files copied into here. Your board files folder should contain the 3 files that were copied from step 16.
 
 ![Screenshot 2022-02-04 150522](https://user-images.githubusercontent.com/92703672/152486728-fe129f4b-aa69-4276-87a7-dfe5400689bd.png)
 
-<b>Step 18.</b> Download the Vivado library master which contains the IP for the Pmod sensors and ZYNQ processor that we will be using and extract it:        https://github.com/Digilent/vivado-library/archive/master.zip (Remember the location of this folder as we will be using it in Vivado)
+<b>Step 18.</b> Download the Vivado library master which contains the IP for the Pmod sensors and ZYNQ processor that we will be using and extract it to a folder of your choice:https://github.com/Digilent/vivado-library/archive/master.zip (Remember the location of this folder as we will be using it in Vivado)
 
-<b>Step 19.</b> Finished!!! :)
+<b>Step 19.</b> Finished installation!!! :)
 
 ![Screenshot 2022-02-04 123401](https://user-images.githubusercontent.com/92703672/152496084-fa89e1fa-c3e7-428c-97dc-c77c50f59f6f.png)
