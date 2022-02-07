@@ -54,7 +54,7 @@ Note that the required hard disk space is 100 GB, although the actual disk space
 
 ![Screenshot 2022-02-04 143610](https://user-images.githubusercontent.com/92703672/152483588-159f9e3a-73f4-4e40-92a9-e6d5b05907b7.png)
 
-<b>Step 12.</b> Choose the same directory as before or you could just leave it as default if you have done so before. Click Next and Yes if prompted. (Also required to have enough disk space or same error as step 7 before will occur)
+<b>Step 12.</b> Choose the same directory as before in step 7 or you could just leave it as default if you have done so before. Click Next and Yes if prompted. (Also required to have enough disk space or same error as step 7 before will occur)
 
 <b>Step 13.</b> Proceed with the Vivado installation. (This will take some time)
 
