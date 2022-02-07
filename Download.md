@@ -3,11 +3,11 @@ The set of instructions below provides a complete walkthrough of the software th
 
 This notebook will specifically be using Xilinx Vitis IDE 2019.2 and Vivado 2019.2 as an example, please make sure that the version of the Vitis IDE and Vivado is matching otherwise there may be many software version errors in the near future. (Other versions of Vitis IDE and Vivado has not been tested) 
 
-(Try at your own risk) If you already have other versions of Vivado/Vitis IDE downloaded on your computer and do not wish to uninstall those, please take note to install the same version for both Vitis IDE and Vivado.
+(Try at your own risk) If you already have other versions of Vivado/Vitis IDE downloaded on your computer and do not wish to uninstall those, please take to have the same version for both Vitis IDE and Vivado.
 
 However, if you wish to follow step by step of this walkthrough, uninstalling those version through either the control panel or the uninstall.exe for Xilinx first would be advised.
 
-Note that the required hard disk space is 100 GB, although the actual disk space taken for Vitis IDE and Vivado is only 30-40 GB.
+Note that the required hard disk space is 100 GB, although the actual disk space taken for Vitis IDE and Vivado is only around 30-40 GB.
 
 ![zybo-1](https://user-images.githubusercontent.com/92703672/152474145-e952bbc7-79f2-438c-bbbd-bf88e2810784.png)
 
