@@ -39,11 +39,11 @@ In this example we will be naming our project HydroTech.
 
 ![image](https://user-images.githubusercontent.com/92703672/153348130-5818562f-e22f-4f91-887f-64c1cf49a614.png)
 
-<b>Step 8.</b> We will be selecting HydroTech_wrapper for this example, click next after selecting wrapper.
+<b>Step 8.</b> We will be selecting HydroTech_wrapper for this example ( Select the wrapper that you generated from Vivado) , click next after selecting wrapper.
 
 ![Screenshot 2022-02-10 144856](https://user-images.githubusercontent.com/92703672/153353167-8367ec98-a3d7-4af7-89bd-60ba2e0cc88e.png)
 
-<b>Step 9.</b> Select ps7_cortexa9_0 as your CPU, standalone OS and C++ for language and make sure to check generate boot components, then click next
+<b>Step 9.</b> Select ps7_cortexa9_0 as your CPU, standalone OS and C++ for language and make sure to check generate boot components, then click next.
 
 ![Screenshot 2022-02-10 145238](https://user-images.githubusercontent.com/92703672/153353442-ff824b66-1026-4d69-9825-2211b11f6985.png)
 
