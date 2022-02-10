@@ -1,1 +1,1 @@
-# Vitis
+# Vitis IDE walkthrough
