@@ -194,10 +194,34 @@ pin7, pin8, pin9 and pin10. For example this section with the Pmod AD1.
 
 ![image](https://user-images.githubusercontent.com/92703672/153559070-3b5b405f-6d35-4d39-946e-77897ed25810.png)
 
-<b>Step 42.</b> After deleting should look like this. Do it for all the Pmods.
+<b>Step 42.</b> After deleting should look like this. Do it for all the Pmods ONLY. ( See step 43 too )
 
 ![image](https://user-images.githubusercontent.com/92703672/153559274-f0e414d0-28f7-4d3c-9487-78dc2d247dfa.png)
 
-<b>Step 43.</b>
+<b>Step 43.</b> Go ahead and click save when you are done editing the wrapper. Then open up Zybo-Z7-Master.xdc under constraints in Sources.
 
-![image](https://user-images.githubusercontent.com/92703672/153559585-83263896-a643-4a97-8ba9-60edbe83eaa2.png)
+![Screenshot 2022-02-11 171129](https://user-images.githubusercontent.com/92703672/153564801-5164315c-1298-4725-a345-51be4860d53a.png)
+
+<b>Step 44.</b> Select everything from Pmod header JB to Pmod header JD and uncomment it. This will basically tell the Zybo which ports we will be needing.
+
+![image](https://user-images.githubusercontent.com/92703672/153565117-19fa53e1-6f86-4a39-8839-b70e3cbd24dd.png)
+
+<b>Step 45.</b> We will be configuring the constraint files based on the ports we will be needing, for this example we will be placing the Pmod ALS in port JB ( top row ),
+Pmod Hygro in port JC ( top row ), Pmod AQS in port JC ( bottom row ) and lastly the Pmod AD1 in pord JD ( top row ).
+
+Remember the name of the Pmod interface from step 34.
+
+e.g. Change the get_ports { jb[0] } to get_ports { Pmod_ALS_pin1_io } ( get_ports { interface name_pin1_io } )
+
+![image](https://user-images.githubusercontent.com/92703672/153566558-4cd85d75-4cb8-4e6d-ac4f-e33e6d28f9fb.png)
+
+![image](https://user-images.githubusercontent.com/92703672/153566597-dad72b66-42a0-42d5-acb6-0dec5c016a5e.png)
+
+![image](https://user-images.githubusercontent.com/92703672/153566628-c122e758-eb51-494e-970c-0c979de9c7ec.png)
+
+<b>Step 44.</b> Go ahead and click save, then proceed to generate bitstream under program and debug at the left panel. ( This will take some time )
+
+<b>Step 45.</b> Some warnings (orange) will appear during implementation, however if they are not critical errors (red), they can mostly be ignored.
+
+![image](https://user-images.githubusercontent.com/92703672/153562502-dfde654c-ad84-40f7-854b-99ba7abb2864.png)
+
