@@ -178,18 +178,17 @@ sure mode is MASTER, search for Pmod and choose the Pmod interface and click OK.
 
 <b>Step 38.</b> Go to design sources under Sources, right click your block diagram and create HDL wrapper, select let vivado manage wrapper and auto-update, then click OK.
 
-![Screenshot 2022-02-11 160819](https://user-images.githubusercontent.com/92703672/153556982-c5346782-5c25-452b-aef2-a265683e7c73.png
+![Screenshot 2022-02-11 160819](https://user-images.githubusercontent.com/92703672/153556982-c5346782-5c25-452b-aef2-a265683e7c73.png)
 
 <b>Step 39.</b> Some warnings should appear, go ahead and ignore them and click OK.
 
 ![image](https://user-images.githubusercontent.com/92703672/153557232-55a2dab9-de27-4dc0-a9e0-921ad6d5a33c.png)
 
-<b>Step 40.</b> After generating wrapper for your block diagram, double click it under design sources to open it up, you should see your wrapper.v file, we will be editing some
-things in here to avoid some potential errors when generating bitstream.
+<b>Step 40.</b> After generating wrapper for your block diagram, double click your wrapper under design sources to open it up, you should see your wrapper.v file, we will be editing some things in here to avoid some potential errors when generating bitstream.
 
 ![Screenshot 2022-02-11 161237](https://user-images.githubusercontent.com/92703672/153557472-d3d67bbe-b65f-4f2f-85a7-f4b4c1750424.png)
 
-<b>Step 41.</b> The step here may require you to troubleshoot by a few times by yourself. Scroll down the wrapper and look for all the Pmod ONLY and delete lines that contain
+<b>Step 41.</b> The step here may require you to troubleshoot by a few times by yourself. Scroll down the wrapper and look for all the Pmods ONLY and delete lines that contain
 pin7, pin8, pin9 and pin10. For example this section with the Pmod AD1.
 
 ![image](https://user-images.githubusercontent.com/92703672/153559070-3b5b405f-6d35-4d39-946e-77897ed25810.png)
@@ -202,11 +201,11 @@ pin7, pin8, pin9 and pin10. For example this section with the Pmod AD1.
 
 ![Screenshot 2022-02-11 171129](https://user-images.githubusercontent.com/92703672/153564801-5164315c-1298-4725-a345-51be4860d53a.png)
 
-<b>Step 44.</b> Select everything from Pmod header JB to Pmod header JD and uncomment it. This will basically tell the Zybo which ports we will be needing.
+<b>Step 44.</b> Select everything from Pmod header JB to Pmod header JD and uncomment it. This will basically tell the Zybo which ports we will be needed.
 
 ![image](https://user-images.githubusercontent.com/92703672/153565117-19fa53e1-6f86-4a39-8839-b70e3cbd24dd.png)
 
-<b>Step 45.</b> We will be configuring the constraint files based on the ports we will be needing, for this example we will be placing the Pmod ALS in port JB ( top row ),
+<b>Step 45.</b> We will be configuring the constraint files based on the ports that will be needing, for this example we will be placing the Pmod ALS in port JB ( top row ),
 Pmod Hygro in port JC ( top row ), Pmod AQS in port JC ( bottom row ) and lastly the Pmod AD1 in pord JD ( top row ).
 
 Remember the name of the Pmod interface from step 34.
@@ -219,9 +218,30 @@ e.g. Change the get_ports { jb[0] } to get_ports { Pmod_ALS_pin1_io } ( get_port
 
 ![image](https://user-images.githubusercontent.com/92703672/153566628-c122e758-eb51-494e-970c-0c979de9c7ec.png)
 
-<b>Step 44.</b> Go ahead and click save, then proceed to generate bitstream under program and debug at the left panel. ( This will take some time )
+<b>Step 46.</b> Go ahead and click save, then proceed to generate bitstream under program and debug at the left panel. ( This will take some time )
 
-<b>Step 45.</b> Some warnings (orange) will appear during implementation, however if they are not critical errors (red), they can mostly be ignored.
+<b>Step 47.</b> Some warnings (orange) will appear during implementation, however if they are not critical errors (red), they can mostly be ignored.
 
 ![image](https://user-images.githubusercontent.com/92703672/153562502-dfde654c-ad84-40f7-854b-99ba7abb2864.png)
 
+<b>Step 48.</b> This will show if bitstream generated successfully. None of this is needed for this example, click cancel to proceed.
+
+![image](https://user-images.githubusercontent.com/92703672/153570044-24b1631a-878e-4e8e-9525-5bbca4ba6e62.png)
+
+<b>Step 49.</b> Now we will be generating our xsa file to bring over to Vitis to start some programming. Navigate to file > export > export hardware
+
+![Screenshot 2022-02-11 175213](https://user-images.githubusercontent.com/92703672/153570853-4755869d-ed7c-4356-8ab2-ee69452e260a.png)
+
+<b>Step 50.</b> Check include bitstream and OK. ( Take note of where you will be exporting the file to )
+
+![image](https://user-images.githubusercontent.com/92703672/153571222-982fbc0a-1012-4d2f-8118-c97a7eb83702.png)
+
+<b>Step 51.</b> Navigate to the location of the exported file and copy the .xsa file. e.g. 
+
+![image](https://user-images.githubusercontent.com/92703672/153571774-39073d5f-c16c-4d81-bc65-7d9984cdbcee.png)
+
+<b>Step 52.</b> Next navigate to where your xilinx folder and navigate to fixed_hwplatforms e.g. C:\Xilinx\Vitis\2019.2\data\embeddedsw\lib\fixed_hwplatforms and paste the copied file into here. It should now contain your wrapper file.
+
+![image](https://user-images.githubusercontent.com/92703672/153572890-8febf5b0-6bb5-43d3-bee8-f7a5ccedefee.png)
+
+<b>Step 53.</b> Done! Now we can proceed to Vitis IDE. ( https://github.com/ProjectHydroTech/Zybo-Z7/tree/main/Vitis )
