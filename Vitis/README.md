@@ -36,6 +36,7 @@ In this example we will be naming our project HydroTech.
 ![Screenshot 2022-02-10 135037](https://user-images.githubusercontent.com/92703672/153346260-a003f7a3-014a-471c-88e6-75a61f722940.png)
 
 <b>Step 7.</b> Next click on Create a new platform from hardware (XSA) in the above tab to select the wrapper.xsa file generated from Vivado. 
+https://github.com/ProjectHydroTech/Zybo-Z7/tree/main/Vivado
 
 ![image](https://user-images.githubusercontent.com/92703672/153348130-5818562f-e22f-4f91-887f-64c1cf49a614.png)
 
