@@ -3,6 +3,8 @@
 The set of instructions below provides a simple startup walkthrough of the Vivado Software, to be able to start customizing your very own block diagram.
 This notebook will be using Vivado 2019.2 on the Zybo Z7-20 as an example.
 
+Example of the Wrapper, constraint files and xsa file has already been provided. You may skip to step 52 if you do not wish to generate your own wrapper.xsa file.
+
 Please note to go through the Installation Guide before reading this notebook.
 (https://github.com/ProjectHydroTech/Zybo-Z7/blob/main/Installation%20Guide.md)
 
