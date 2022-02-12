@@ -8,6 +8,7 @@ Please note to go through the Installation Guide before reading this notebook.
 
 If you have not already generated your own wrapper.xsa file or downloaded it from the Vivado notebook, please go ahead and view the Vivado guide first. https://github.com/ProjectHydroTech/Zybo-Z7/tree/main/Vivado
 
+Source files have been provided.
 
 ![image](https://user-images.githubusercontent.com/92703672/153341220-35883863-b092-4f38-bf83-f824806a4169.png)
 
@@ -55,4 +56,28 @@ https://github.com/ProjectHydroTech/Zybo-Z7/tree/main/Vivado
 
 ![Screenshot 2022-02-10 145527](https://user-images.githubusercontent.com/92703672/153353680-71cfdfc3-dacc-4596-a990-9b1faafa10f6.png)
 
+<b>Step 11.</b> This is the startup page for users that have already created an application.
 
+![Screenshot 2022-02-12 172526](https://user-images.githubusercontent.com/92703672/153705644-28199ad9-b4af-4daa-87e6-8a0306604e63.png)
+
+<b>Step 12.</b> Navigate to your source file at the top left panel. e.g. HydroTech_system > HydroTech > src
+
+![image](https://user-images.githubusercontent.com/92703672/153705820-3c4778f1-8a79-4333-aefd-20ab720af2e6.png)
+
+<b>Step 13.</b> Right click on source and navigate to New > Other... 
+
+![Screenshot 2022-02-12 173259](https://user-images.githubusercontent.com/92703672/153705880-db22a6dd-b9d8-4b35-8548-70d49397a492.png)
+
+<b>Step 14.</b> Select C/C++ and select source file, then click Next to create an empty source file to begin coding.
+
+![Screenshot 2022-02-12 173446](https://user-images.githubusercontent.com/92703672/153705923-66ce860a-95f8-4d36-97d5-848438ecdd8d.png)
+
+<b>Step 15.</b> Leave everything as default and name your source file. ( Remember to include a .c behind the file name e.g. main.c / HydroTech.c )
+
+![Screenshot 2022-02-12 173744](https://user-images.githubusercontent.com/92703672/153706022-060b7b58-7fbd-4858-ba2f-11abd0b50511.png)
+
+<b>Step 16.</b> Click finish and you can begin coding in your source file. ( C++ language )
+
+![Screenshot 2022-02-12 174022](https://user-images.githubusercontent.com/92703672/153706110-5616cd2e-2794-4d3d-9527-f1dd24548a62.png)
+
+<b>Step 17.</b> You can copy this HydroTech source file example provided to start customizing your own farming rack. https://github.com/ProjectHydroTech/Zybo-Z7/blob/main/Vitis/SP%20main.c
