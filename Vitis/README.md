@@ -3,8 +3,7 @@
 The set of instructions below provides a simple startup walkthrough of the Vitis IDE software, to be able to start programming and customizing your very own code.
 This notebook will be using Xilinx Vitis IDE 2019.2 as an example.
 
-Please note to go through the Installation Guide before reading this notebook.
-(https://github.com/ProjectHydroTech/Zybo-Z7/blob/main/Installation%20Guide.md)
+Please note to go through the Installation Guide before reading this notebook. https://github.com/ProjectHydroTech/Zybo-Z7-20/blob/main/Installation/Installation%20Guide.md
 
 If you have not already generated your own wrapper.xsa file or downloaded it from the Vivado notebook, please go ahead and view the Vivado guide first. https://github.com/ProjectHydroTech/Zybo-Z7/tree/main/Vivado
 
