@@ -245,4 +245,4 @@ e.g. Change the get_ports { jb[0] } to get_ports { Pmod_ALS_pin1_io } ( get_port
 
 ![image](https://user-images.githubusercontent.com/92703672/153572890-8febf5b0-6bb5-43d3-bee8-f7a5ccedefee.png)
 
-<b>Step 53.</b> Done! Now we can proceed to Vitis IDE. ( https://github.com/ProjectHydroTech/Zybo-Z7/tree/main/Vitis )
+<b>Step 53.</b> Done! Now we can proceed to code in Vitis IDE. https://github.com/ProjectHydroTech/Zybo-Z7/tree/main/Vitis
