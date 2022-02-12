@@ -8,7 +8,7 @@ Please note to go through the Installation Guide before reading this notebook.
 
 If you have not already generated your own wrapper.xsa file or downloaded it from the Vivado notebook, please go ahead and view the Vivado guide first. https://github.com/ProjectHydroTech/Zybo-Z7/tree/main/Vivado
 
-Source files have been provided.
+Example source files have been provided.
 
 ![image](https://user-images.githubusercontent.com/92703672/153341220-35883863-b092-4f38-bf83-f824806a4169.png)
 
