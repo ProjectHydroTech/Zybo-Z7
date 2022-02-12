@@ -5,8 +5,7 @@ This notebook will be using Vivado 2019.2 with the Zybo Z7-20 as an example.
 
 Example of the Wrapper, constraint files and xsa file has already been provided. You can download the wrapper.xsa file here and skip to step 52 if you do not wish to generate your own wrapper.xsa file and import it straight to Vitis IDE to start programming. https://github.com/ProjectHydroTech/Zybo-Z7/blob/main/Vivado/HydroTech_wrapper.xsa
 
-Please note to go through the Installation Guide before reading this notebook.
-(https://github.com/ProjectHydroTech/Zybo-Z7/blob/main/Installation%20Guide.md)
+Please note to go through the Installation Guide before reading this notebook. https://github.com/ProjectHydroTech/Zybo-Z7-20/blob/main/Installation/Installation%20Guide.md
 
 ![image](https://user-images.githubusercontent.com/92703672/153527757-0fe820e0-6294-40d0-8b32-bf39c5c1b162.png)
 
