@@ -230,7 +230,7 @@ e.g. Change the get_ports { jb[0] } to get_ports { Pmod_ALS_pin1_io } ( get_port
 
 ![image](https://user-images.githubusercontent.com/92703672/153570044-24b1631a-878e-4e8e-9525-5bbca4ba6e62.png)
 
-<b>Step 49.</b> Now we will be generating our xsa file to bring over to Vitis to start some programming. Navigate to file > export > export hardware
+<b>Step 49.</b> Now we will be generating our xsa file to bring over to Vitis to start some programming. Navigate to file > export > export hardware.
 
 ![Screenshot 2022-02-11 175213](https://user-images.githubusercontent.com/92703672/153570853-4755869d-ed7c-4356-8ab2-ee69452e260a.png)
 
