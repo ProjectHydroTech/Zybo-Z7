@@ -1,1 +1,1 @@
-# Zybo Z7 walkthrough
+# Zybo Z7-20 walkthrough
