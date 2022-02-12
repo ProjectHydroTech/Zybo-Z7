@@ -177,6 +177,10 @@ sure mode is MASTER, search for Pmod and choose the Pmod interface and click OK.
 
 ![Screenshot 2022-02-11 160658](https://user-images.githubusercontent.com/92703672/153556825-84734e7b-9256-4de8-880d-07546b1cf7e0.png)
 
+Finished block diagram!
+
+![Screenshot 2022-02-12 190459](https://user-images.githubusercontent.com/92703672/153708810-ca0c265f-b8cf-4845-a607-4d72cb6ce34a.png)
+
 <b>Step 38.</b> Go to design sources under Sources, right click your block diagram and create HDL wrapper, select let vivado manage wrapper and auto-update, then click OK.
 
 ![Screenshot 2022-02-11 160819](https://user-images.githubusercontent.com/92703672/153556982-c5346782-5c25-452b-aef2-a265683e7c73.png)
