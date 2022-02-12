@@ -1,1 +1,1 @@
-# Read
+# Zybo Z7 walkthrough
