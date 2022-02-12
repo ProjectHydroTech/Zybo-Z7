@@ -1,4 +1,4 @@
-# Zybo Z7-20 software download instructions
+# Zybo Z7-20 software installation guide
 The set of instructions below provides a complete walkthrough of the software that is required to be downloaded before being able to automate your very own vertical farming rack using Vitis IDE and Vivado.
 
 This notebook will specifically be using Xilinx Vitis IDE 2019.2 and Vivado 2019.2 as an example, please make sure that the version of the Vitis IDE and Vivado is matching otherwise there may be many software version errors in the near future. (Other versions of Vitis IDE and Vivado has not been tested) 
