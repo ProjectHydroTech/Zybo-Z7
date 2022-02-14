@@ -74,6 +74,4 @@ Note that the required hard disk space is 100 GB, although the actual disk space
 
 <b>Step 18.</b> Download the Vivado library master which contains the IP for the Pmod sensors and ZYNQ processor that we will be using and extract it to a folder of your choice:https://github.com/Digilent/vivado-library/archive/master.zip (Remember the location of this folder as we will be using it in Vivado)
 
-<b>Step 19.</b> Finished installation!!!
-
-![Screenshot 2022-02-04 123401](https://user-images.githubusercontent.com/92703672/152496084-fa89e1fa-c3e7-428c-97dc-c77c50f59f6f.png)
+<b>Step 19.</b> Done! You can head over to the Vivado notebook to generate your own bitstream file. https://github.com/ProjectHydroTech/Zybo-Z7-20/tree/main/Vivado
