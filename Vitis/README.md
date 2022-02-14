@@ -81,4 +81,4 @@ https://github.com/ProjectHydroTech/Zybo-Z7/tree/main/Vivado
 
 <b>Step 17.</b> You can copy this HydroTech source file example provided to start customizing your own farming rack. https://github.com/ProjectHydroTech/Zybo-Z7/blob/main/Vitis/SP%20main.c
 
-<b>Step 18.</b> Done!
+<b>Step 18.</b> Done! You can head over to Zybo Z7-20 walkthrough to boot up your source code. https://github.com/ProjectHydroTech/Zybo-Z7-20
