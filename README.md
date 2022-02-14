@@ -2,6 +2,8 @@
 
 This notebook will provide a simple walkthrough on how to start up your own indoor vertical farming project.
 
+Head to the Misc folder for some extra information.
+
 This example will be using the Zybo Z7-20 along with the Pmod ESP32 (Port JA), Pmod ALS (Port JB Top row), Pmod HYGRO (Port JC Top row), Pmod AQS (Port JD Bottom row) and
 Pmod AD1 (Port JD Top row).
 
