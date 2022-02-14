@@ -71,3 +71,6 @@ Required hardware for demo:
 
 ![image](https://user-images.githubusercontent.com/92703672/153805848-4c32262b-6ce9-44fb-8a67-6508d6eb3d1e.png)
 
+<b>Step 14.</b> Finished!!!
+
+![Screenshot 2022-02-04 123401](https://user-images.githubusercontent.com/92703672/152496084-fa89e1fa-c3e7-428c-97dc-c77c50f59f6f.png)
