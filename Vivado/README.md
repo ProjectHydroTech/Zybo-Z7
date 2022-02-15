@@ -143,6 +143,7 @@ We will be using the ZYNQ processing system, 1x PMOD AD1, 1x PMOD ALS, 1x PMOD E
 
 <b>Step 29.</b> After adding our ZYNQ proccessing system and Pmod sensors, next will be assigning the Pmod sensors to the respective ports on the Zybo. (JB, JC, JD, JE, JF)
 
+The following steps will also be demonstrating how to use both top and bottom rows of the Pmod for demonstration purposes.
 
 <b>Step 30.</b> Click on board to the left of your block diagram and scroll to Pmod.
 
